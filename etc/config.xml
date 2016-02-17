@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <QS_SuggestedSearch>
+            <version>0.0.1</version>
+        </QS_SuggestedSearch>
+    </modules>
+    <global>
+        <models>
+            <catalogsearch>
+                <rewrite>
+                    <query>QS_SuggestedSearch_Model_Query</query>
+                </rewrite>
+            </catalogsearch>
+        </models>
+    </global>
+</config>
